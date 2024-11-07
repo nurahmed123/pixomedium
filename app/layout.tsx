@@ -10,7 +10,7 @@ import Script from 'next/script'
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Not A Boring team - Home",
+  title: "Pixomax - Home",
   description: "Men for men",
 };
 

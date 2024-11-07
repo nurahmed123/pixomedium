@@ -11,7 +11,7 @@ const Service = () => {
         Our Services
       </h1>
       <div className="h-full flex flex-col gap-10 px-10 justify-center z-[20] w-[90%]">
-        {/* <ServiceItem /> */}
+        <ServiceItem />
       </div>
     </div>
   );

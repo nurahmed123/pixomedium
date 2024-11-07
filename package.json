@@ -16,7 +16,8 @@
     "next": "^14.0.4",
     "react": "^18",
     "react-dom": "^18",
-    "react-icons": "^4.11.0"
+    "react-icons": "^4.11.0",
+    "tailwindcss-motion": "^0.4.1-beta"
   },
   "devDependencies": {
     "@react-three/drei": "^9.88.4",

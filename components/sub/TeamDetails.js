@@ -33,7 +33,7 @@ const teamDetails = () => {
             className={`mb-8 leading-relaxed ${teamInfo === "hide" ? "hidden" : "block"
               }`}
           >
-            At our new startup, our collaborative Not a Boring Team(NBT),
+            At our new startup, our collaborative Pixomedium,
             comprises skilled individuals committed to reshaping road safety.
             Twa-Shin, our lead, excels in robotics, ICT, business and Physics,
             backed by a track record of regional and national awarded.<br />Mahdi Bin

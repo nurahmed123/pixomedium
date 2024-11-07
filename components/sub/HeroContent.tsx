@@ -63,7 +63,7 @@ const HeroContent = () => {
         <motion.a
           href="#project"
           variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+          className="hover:motion-preset-stretch py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
           Learn More!
         </motion.a>
@@ -75,6 +75,7 @@ const HeroContent = () => {
       >
         <Image
           src="/mainIconsdark.svg"
+          className="hover:!motion-preset-confetti"
           // src="/henoImg.png"
           alt="work icons"
           height={650}

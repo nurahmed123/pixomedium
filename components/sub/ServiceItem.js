@@ -1,24 +1,16 @@
-import React, { useEffect, useState } from 'react'
-
+import React from 'react'
 
 const ServiceItems = () => {
-    const [darkMode, setDarkMode] = useState(true);
-    useEffect(() => {
-        // Check local storage for dark mode preference on initial load
-        const isDarkMode = localStorage.getItem('darkMode');
-        setDarkMode(isDarkMode);
-    }, [darkMode]);
-
     return (
         <div className="!my-9 container relative flex flex-col justify-between h-full max-w-6xl px-10 mx-auto xl:px-0 m">
-            <h2 className={`mb-1 text-3xl font-extrabold leading-tight dark:text-gray-300 text-gray-900`}>Services</h2>
+            {/* <h2 className={`mb-1 text-3xl font-extrabold leading-tight dark:text-gray-300 text-gray-900`}>Services</h2> */}
             <p className="mb-12 text-lg text-gray-500">Here is a few of the awesome Services we provide.</p>
             <div className="w-full">
                 <div className="flex flex-col w-full mb-10 sm:flex-row">
                     <div data-aos="fade-right" className="w-full mb-10 sm:mb-0 sm:w-1/2">
                         <div className="relative h-full ml-0 mr-0 sm:mr-10">
                             <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-indigo-500 rounded-lg"></span>
-                            <div className="relative h-full p-5 bg-white dark:bg-gray-700 border-2 border-indigo-500 rounded-lg">
+                            <div className="relative h-full p-5 bg-white dark:bg-gray-700 border-2 border-indigo-500 rounded-lg !bg-[#0b0220]">
                                 <div className="flex items-center -mt-1">
                                     <h3 className="my-2 ml-3 text-lg font-bold text-gray-700 dark:text-gray-100">Web Development</h3>
                                 </div>
@@ -30,7 +22,7 @@ const ServiceItems = () => {
                     <div data-aos="fade-left" className="w-full sm:w-1/2">
                         <div className="relative h-full ml-0 md:mr-10">
                             <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-purple-500 rounded-lg"></span>
-                            <div className="relative h-full p-5 bg-white border-2 border-purple-500 rounded-lg dark:bg-gray-700">
+                            <div className="relative h-full p-5 bg-white border-2 border-purple-500 rounded-lg dark:bg-gray-700 !bg-[#0b0220]">
                                 <div className="flex items-center -mt-1">
                                     <h3 className="my-2 ml-3 text-lg font-bold text-gray-800 dark:text-gray-100">App Deployment</h3>
                                 </div>
@@ -44,7 +36,7 @@ const ServiceItems = () => {
                     <div className="w-full mb-10 sm:mb-0 sm:w-1/2">
                         <div className="relative h-full ml-0 mr-0 sm:mr-10">
                             <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-blue-400 rounded-lg"></span>
-                            <div className="relative h-full p-5 bg-white border-2 border-blue-400 rounded-lg dark:bg-gray-700">
+                            <div className="relative h-full p-5 bg-white border-2 border-blue-400 rounded-lg dark:bg-gray-700 !bg-[#0b0220]">
                                 <div className="flex items-center -mt-1">
                                     <h3 className="my-2 ml-3 text-lg font-bold text-gray-800 dark:text-gray-100">Project Development</h3>
                                 </div>
@@ -56,7 +48,7 @@ const ServiceItems = () => {
                     <div data-aos="zoom-in-up" className="w-full mb-10 sm:mb-0 sm:w-1/2">
                         <div className="relative h-full ml-0 mr-0 sm:mr-10">
                             <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-yellow-400 rounded-lg"></span>
-                            <div className="relative h-full p-5 bg-white border-2 border-yellow-400 rounded-lg dark:bg-gray-700">
+                            <div className="relative h-full p-5 bg-white border-2 border-yellow-400 rounded-lg dark:bg-gray-700 !bg-[#0b0220]">
                                 <div className="flex items-center -mt-1">
                                     <h3 className="my-2 ml-3 text-lg font-bold text-gray-800 dark:text-gray-100">Project Paper</h3>
                                 </div>
@@ -68,7 +60,7 @@ const ServiceItems = () => {
                     <div data-aos="zoom-in-left" className="w-full sm:w-1/2">
                         <div className="relative h-full ml-0 md:mr-10">
                             <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-green-500 rounded-lg"></span>
-                            <div className="relative h-full p-5 bg-white border-2 border-green-500 rounded-lg dark:bg-gray-700">
+                            <div className="relative h-full p-5 bg-white border-2 border-green-500 rounded-lg dark:bg-gray-700 !bg-[#0b0220]">
                                 <div className="flex items-center -mt-1">
                                     <h3 className="my-2 ml-3 text-lg font-bold text-gray-800 dark:text-gray-100">Research Paper</h3>
                                 </div>
