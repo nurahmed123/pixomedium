@@ -22,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/sub/ProjectCard.js", "components/sub/Projectdetailtab.js", "components/sub/TeamDetails.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/sub/ProjectCard.js", "components/sub/Projectdetailtab.js", "components/sub/TeamDetails.js", "components/main/FAQ.tsx"],
   "exclude": ["node_modules"]
 }

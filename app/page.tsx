@@ -3,6 +3,7 @@ import Hero from "@/components/main/Hero";
 import Projects from "@/components/main/Projects";
 import Skills from "@/components/main/Skills";
 import Service from "@/components/main/Service";
+import FAQ from "@/components/main/FAQ";
 import ProjectDetailTab from "@/components/sub/Projectdetailtab";
 import TeamDetails from "@/components/sub/TeamDetails";
 import Compare from "@/components/sub/compare";
@@ -22,6 +23,7 @@ export default function Home() {
         <Service />
         <Projects />
         <Pricing />
+        <FAQ/>
         <Add />
       </div>
     </main>

@@ -326,3 +326,87 @@ html {
     margin-bottom: 0.5rem !important;
   }
 }
+
+
+
+/***** client questions *****/
+.service-section .client-ask{
+  margin-top: 25vh;
+}
+
+.service-section .client-ask .fq-right .accordion{
+  max-width: 600px;
+  display: block;
+  margin: 100px auto;
+}
+
+.service-section .client-ask .fq-right .accordion .accordion-card{
+  border-radius: 8px;
+  margin-bottom: 20px;
+  background-image: -webkit-linear-gradient(159deg, var(--testimonial-btn-bg1) 5%,var(--testimonial-btn-bg2) 35%, var(--testimonial-btn-bg3) 65%, var(--testimonial-btn-bg4) 95%);
+}
+
+.service-section .client-ask .fq-right .accordion .accordion-card .card-heading h3{
+  cursor: pointer;
+  position: relative;
+  color: var(--text-black-600);
+  margin: 0;
+  padding: 20px;
+}
+
+.service-section .client-ask .fq-right .accordion .accordion-card .card-heading{
+  position: relative;
+}
+
+.service-section .client-ask .fq-right .accordion .accordion-card .card-heading i{
+  position: absolute;
+  right: 20px;
+  top: 12px;
+  height: 25px;
+  width: 25px;
+  color: var(--text-black-900);
+  background-color: var(--accordion-btn-bg);
+  border-radius: 50%;
+  text-align: center;
+  line-height: 25px;
+}
+
+.service-section .client-ask .fq-right .accordion .accordion-card .card-body{
+  padding: 20px;
+  display: none;
+}
+
+/* open one card  */
+.service-section .client-ask .fq-right .accordion .accordion-card:nth-child(1) .card-body{
+  display: block;
+}
+
+.service-section .client-ask .fq-right .accordion .accordion-card .card-body p{
+  font-size: 15px;
+  line-height: 24px;
+  color: var(--text-black-600);
+  margin: 0px;
+}
+
+@media (max-width: 900px){
+  #services > div.grid-2{
+      grid-template-columns: repeat(2, 1fr);
+  }
+
+  #services > div.grid-2.container.client-ask > div.fq-left > div{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 75%;
+  }
+}
+@media (max-width: 767px){
+  #services > div.grid-2{
+      grid-template-columns: 1fr;
+  }
+
+  .service-section .client-ask .fq-right .accordion{
+      margin: auto;
+  }
+}
+/***** End client questions *****/
