@@ -6,7 +6,7 @@ const FAQItem = () => {
         <div className="container mx-auto mt-[25vh] grid grid-cols-1 md:grid-cols-2 gap-8 relative z-[-1]">
             <div className="flex justify-center items-center" data-aos="zoom-in-right">
                 <div className="w-3/4">
-                    <img src="../../public/faqs-1.png" alt="thumb" className="w-full" />
+                    <img src="https://files.edgestore.dev/iz2sept3369gmc0f/publicFiles/_public/70605f93-9792-4850-87e5-da4ac48d2494.png" alt="thumb" className="w-full" />
                 </div>
             </div>
             <div className="p-4" data-aos="zoom-in-left">
@@ -44,16 +44,16 @@ const AccordionCard = ({ title, content, defaultOpen }) => {
     const [isOpen, setIsOpen] = React.useState(defaultOpen || false);
 
     return (
-        <div className="bg-gradient-to-br from-blue-400 to-purple-500 rounded-lg p-4 shadow-md">
+        <div className="bg-gradient-to-br from-[#303844] to-[#17171c] rounded-lg p-4 shadow-md">
             <div 
                 className="flex justify-between items-center cursor-pointer" 
                 onClick={() => setIsOpen(!isOpen)}
             >
-                <h3 className="text-lg font-semibold text-gray-800">{title}</h3>
-                <i className={`fas ${isOpen ? 'fa-minus' : 'fa-plus'} bg-gray-200 text-gray-900 rounded-full h-6 w-6 flex items-center justify-center`}></i>
+                <h3 className="text-lg font-semibold text-gray-200">{title}</h3>
+                <i className={`fas ${isOpen ? 'fa-minus' : 'fa-plus'} bg-gray-900 text-gray-200 rounded-full h-6 w-6 flex items-center justify-center`}></i>
             </div>
             {isOpen && (
-                <div className="mt-2 text-sm text-gray-700">
+                <div className="mt-2 text-sm text-gray-300">
                     <p>{content}</p>
                 </div>
             )}
