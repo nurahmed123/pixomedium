@@ -11,7 +11,7 @@ const FAQItem = () => {
             </div>
             <div className="p-4" data-aos="zoom-in-left">
                 <div className="text-center mb-6">
-                    <h2 className="text-2xl font-semibold mb-0">
+                    <h2 className="text-2xl font-semibold mb-0 text-gray-100">
                         People who ask to <br />
                         know more about me?
                     </h2>
